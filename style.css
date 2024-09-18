@@ -38,18 +38,23 @@ div {display: block; unicode-bidi: isolate;}
 
 .spacer{height: 3.5rem;
     width: 100%;
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, currentcolor 8px, currentcolor 10px);}
-
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, currentcolor 8px, currentcolor 10px);
+    margin-top: 25px;}
+    
 .spacerbottom{height: 3.5rem;
     width: 100%;
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, currentcolor 8px, currentcolor 10px);
-margin-top: 50px;}
+    margin-top: 50px;}
 
-.foot{text-align: center;}
+.foot{text-align: center; margin-top: 150px;}
+.links{margin-top: 50px;}
 
-/*#contact{text-align: center;}
-#head a{text-align: center; width: 100%; display: block; font-size: 40px; margin-top: 30px;}*/
-#contact li{display: inline;}
-#contact li a{width: fit-content; margin:10px;}
+/*#contact li{display: inline;}
+#contact li a{width: fit-content; margin:10px;}*/
 
-
+@media only screen and (max-width: 768px) {
+    .foot{text-align: center;margin-top:auto ;}
+    .spacer{margin-top: 0cm;}
+    .spacerbottom{margin-top: 0cm;}
+    .links{margin-top: auto;}
+}
