@@ -43,6 +43,7 @@ button {
     cursor: pointer;
     background: none;
     border: 0cm;
+    margin-left: -15px;
     transition: transform 0.5s ease;
 }
 
@@ -72,5 +73,8 @@ button {
     .spacer{margin-top: 0cm;}
     .spacerbottom{margin-top: 0cm;}
     .links{margin-top: auto;}
+    .button_rotation:active {
+        transform: rotate(360deg);
+    }
 }
 
