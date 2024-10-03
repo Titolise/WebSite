@@ -8,7 +8,8 @@ body{
     margin: auto;
     font-size: 1.2rem;
     padding: 0 1.5rem 1.5rem 1.5rem;
-    background:  #0096c7;
+    background-color:  #0096c7;
+    transition: background-color 2s ease;
     font-family: monospace;
     color: #d3dde0;}
 
@@ -36,6 +37,20 @@ a:hover{color: white;}
 
 div {display: block; unicode-bidi: isolate;}
 
+button {
+    font-size: 3rem;
+    font-weight: 700;
+    cursor: pointer;
+    background: none;
+    border: 0cm;
+    transition: transform 0.5s ease;
+}
+
+
+.button_rotation:hover {
+    transform: rotate(360deg);
+}
+
 .spacer{height: 3.5rem;
     width: 100%;
     background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, currentcolor 8px, currentcolor 10px);
@@ -46,7 +61,7 @@ div {display: block; unicode-bidi: isolate;}
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, currentcolor 8px, currentcolor 10px);
     margin-top: 50px;}
 
-.foot{text-align: center; margin-top: 150px;}
+.foot{text-align: center; margin-top: 50px;}
 .links{margin-top: 50px;}
 
 /*#contact li{display: inline;}
@@ -58,3 +73,4 @@ div {display: block; unicode-bidi: isolate;}
     .spacerbottom{margin-top: 0cm;}
     .links{margin-top: auto;}
 }
+
