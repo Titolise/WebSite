@@ -47,8 +47,7 @@ button {
     transition: transform 0.5s ease;
 }
 
-
-.button_rotation:hover {
+.button_rotation:hover{
     transform: rotate(360deg);
 }
 
@@ -73,8 +72,4 @@ button {
     .spacer{margin-top: 0cm;}
     .spacerbottom{margin-top: 0cm;}
     .links{margin-top: auto;}
-    .button_rotation:active {
-        transform: rotate(360deg);
-    }
 }
-
