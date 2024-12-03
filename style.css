@@ -112,9 +112,6 @@ button {
 .foot{text-align: center; margin-top: 50px;}
 .links{margin-top: 50px;}
 
-/*#contact li{display: inline;}
-#contact li a{width: fit-content; margin:10px;}*/
-
 @media only screen and (max-width: 768px) {
     .foot{text-align: center;margin-top:auto ;}
     .spacer{margin-top: 0cm;}
