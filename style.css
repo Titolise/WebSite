@@ -66,8 +66,8 @@ button {
 }
 
 #theme-switch{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     padding: 0;
     border-radius: 50%;
     background-color: var(--base-variant);
@@ -75,8 +75,8 @@ button {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 25px;
-    right: 40px;
+    top: 20px;
+    right: 20px;
 }
 
 #theme-switch svg{
@@ -117,4 +117,10 @@ button {
     .spacer{margin-top: 0cm;}
     .spacerbottom{margin-top: 0cm;}
     .links{margin-top: auto;}
+    #theme-switch{
+        position:absolute;
+        top: 15px;
+        bottom: 20px;
+        right: 5px;
+    }
 }
