@@ -241,3 +241,20 @@ ul {
 .footer {
     margin-top: auto;
 }
+
+@media only screen and (max-width: 768px){
+  img.card_photo{
+    max-width: 100%;
+    height: auto;
+  };
+  img.Slope_logo{
+    max-width: 100%;
+    height: auto;
+  }
+  .contact_box{
+    max-width: 100%;
+  }
+  .contact_box .icon-content {
+    margin: 0 5px;
+  }
+}
