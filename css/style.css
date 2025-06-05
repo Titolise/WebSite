@@ -28,7 +28,7 @@ body{
     color:var(--text-color);
 }
 
-h1{font-size: 3rem;
+h1{font-size: 2.75rem;
     font-weight: 700;}
 
 h1 {
@@ -40,15 +40,15 @@ h1 {
     unicode-bidi: isolate;
 }
 
-h2{font-size: 32px;}
+h2{font-size: 30px;}
 h3{font-size: 1.50rem;}
 h4{font-size: 1.25rem;
 font-weight: 100;}
 
-p{font-size: 20px; 
+p{font-size: 18px; 
     font-style: oblique;}
 
-a{font-size: 20px;
+a{font-size: 18px;
     cursor: pointer; 
     color:var(--text-color);
 }
@@ -233,7 +233,7 @@ img.Slope_logo{
 }
 
 .smalltext{
-  font-size: 1rem;
+  font-size: .90rem;
   text-align:justify;
   font-weight:normal ;
 }
