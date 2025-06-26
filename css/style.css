@@ -41,7 +41,7 @@ h1 {
 }
 
 h2{font-size: 30px;}
-h3{font-size: 1.50rem;}
+h3{font-size: 1.40rem;}
 h4{font-size: 1.25rem;
 font-weight: 100;}
 
@@ -234,7 +234,7 @@ img.Slope_logo{
 
 .smalltext{
   font-size: .90rem;
-  text-align:justify;
+  text-align: left;
   font-weight:normal ;
 }
 
