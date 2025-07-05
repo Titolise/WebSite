@@ -1,15 +1,15 @@
 *{box-sizing: border-box;}
 
 :root{
-    --base-color:#F5F5F5;
-    --base-variant:#F5F5F5;
-    --text-color: #191919;
-    --primary-color: #191919;
+    --base-color:#ff7900;
+    --base-variant:#ff7900;
+    --text-color: black;
+    --primary-color: black;
 }
 
 .darkmode{
-    --base-color: #191919;
-    --base-variant: #191919;
+    --base-color: #240046;
+    --base-variant: #240046;
     --text-color: #F5F5F5;
     --primary-color:#F5F5F5;
 }
