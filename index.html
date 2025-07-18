@@ -23,15 +23,35 @@
     </head>
 
     <body>
+      
       <!-- Nav-->
-      <nav class="navbar">
-        <ul>
-          <li> <a href="about.html">About Me</a></li>
-          <li> <a href="we.html">Work Exp</a></li>
-          <li> <a href="#Project"> Project</a></li>
-        </ul>
-      </nav>
-     
+        <section>
+          <nav id="desktop-nav" >
+            <div class="navbar">
+              <ul>
+                <li> <a href="about.html">About Me</a></li>
+                <li> <a href="we.html">Work Exp</a></li>
+                <li> <a href="#Project"> Project</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <nav id="hamburger-nav">
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="hamburger-links">
+                <li> <a href="about.html" onclick="toggleMenu()">About Me</a></li>
+                <li> <a href="we.html" onclick="toggleMenu()">Work Exp</a></li>
+                <li> <a href="#Project" onclick="toggleMenu()"> Project</a></li>
+              </div>
+            </div>
+          </nav>
+        </section>
+
         <!-- Dark/Light Mode Switch -->
         <section>
         <button id="theme-switch">
@@ -42,12 +62,7 @@
 
         <!-- Title-->
         <section>
-        <h1>Hello, I'm Gianfilippo 
-            <button 
-                class="button_rotation" 
-                id="change_color"> <img src="/data/waving_hand.png" alt="waving hand" style="width: 3rem ; height: 3rem;">
-            </button>
-        </h1>
+          <h1>Hello, I'm Gianfilippo </h1>
         </section>
 
         <div class="spacer"></div>
@@ -116,6 +131,7 @@
                 <p class="tip">Website</p>
                 <p class="second-text"> <a class="project" href="https://github.com/Titolise/WebSite">GitHub</a></p>
               </div>
+              
             </div>
 
         <div class="spacerbottombottom"></div>
@@ -208,7 +224,7 @@
 
     </footer>
        
-    <!--<script src="script.js"></script>-->
+    <script src="/js/script.js"></script>
    
     </body>
 

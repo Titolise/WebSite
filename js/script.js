@@ -1,7 +1,6 @@
-/*const button = document.getElementById('change_color');
-const body = document.body;
-
-button.addEventListener('click', () => {
-    const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-    body.style.backgroundColor = randomColor;
-});*/
+function toggleMenu(){
+    const menu = document.querySelector(".hamburger-links");
+    const icon = document.querySelector(".hamburger.icon");
+    menu.classList.toggle('open');
+    icon.classList.toggle('open');
+}
